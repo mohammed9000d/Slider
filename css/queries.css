@@ -1,0 +1,69 @@
+/* Tablet */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Desktop */
+
+@media only screen and (min-width: 1200px) {
+    #showcase {
+        padding: 0 2rem;
+    }
+    .carousel-inner {
+        height: 556px;
+    }
+    .carousel-inner img {
+        height: 556px;
+        /* border-radius: 20px; */
+    }
+    .carousel-caption h1 {
+        font-size: 52px;
+        font-weight: 400;
+        color: #FF8800;
+        margin-bottom: 34px;
+    }
+    .carousel-caption p {
+        margin-bottom: 80px !important;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .modal {
+        left: 0;
+        right: 0;
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-bottom: -100px !important;
+    }
+    .modal-content {
+        border-radius: 20px;
+    }
+    .modal-dialog {
+        margin: 0 100px;
+        max-width: 100% !important;
+        margin-top: 50px !important;
+    }
+    #timer-section .hero-text h2 {
+        font-size: 42px;
+    }
+    #timer-section .timer {
+        margin-top: 76px;
+    }
+    #timer-section .timer span {
+        font-size: 80px;
+    }
+    #social-media p {
+        font-size: 16px;
+    }
+    #timer-section .timer p {
+        font-size: 28px;
+        margin-bottom: 48px;
+    }
+    #timer-section .timer .col-3 {
+        width: 0px;
+        height: 130px;
+        background: transparent;
+        border-left: 1px solid #cecece;
+        ‏
+    }
+}

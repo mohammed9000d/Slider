@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'Neo Sans';
+    src: url('../fonts/NeoSans-Medium.eot');
+    src: url('../fonts/NeoSans-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/NeoSans-Medium.woff') format('woff'), url('../fonts/NeoSans-Medium.ttf') format('truetype'), url('../fonts/NeoSans-Medium.svg#NeoSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('../fonts/../fonts/NeoSansArabic.eot');
+    src: url('../fonts/NeoSansArabic.eot?#iefix') format('embedded-opentype'), url('../fonts/NeoSansArabic.woff') format('woff'), url('../fonts/NeoSansArabic.ttf') format('truetype'), url('../fonts/NeoSansArabic.svg#NeoSansArabic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neo Sans Arabic';
+    src: url('../fonts/NeoSansArabic_1.eot');
+    src: url('../fonts/NeoSansArabic_1.eot?#iefix') format('embedded-opentype'), url('../fonts/NeoSansArabic_1.woff') format('woff'), url('../fonts/NeoSansArabic_1.ttf') format('truetype'), url('../fonts/NeoSansArabic_1.svg#NeoSansArabic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neo Sans Arabic';
+    src: url('../fonts/NeoSansArabic-Bold.eot');
+    src: url('../fonts/NeoSansArabic-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/NeoSansArabic-Bold.woff') format('woff'), url('../fonts/NeoSansArabic-Bold.ttf') format('truetype'), url('../fonts/NeoSansArabic-Bold.svg#NeoSansArabic-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neo Sans Arabic';
+    src: url('../fonts/NeoSansArabic-Black.eot');
+    src: url('../fonts/NeoSansArabic-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/NeoSansArabic-Black.woff') format('woff'), url('../fonts/NeoSansArabic-Black.ttf') format('truetype'), url('../fonts/NeoSansArabic-Black.svg#NeoSansArabic-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neo Sans Arabic';
+    src: url('../fonts/NeoSansArabic-Light.eot');
+    src: url('../fonts/NeoSansArabic-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/NeoSansArabic-Light.woff') format('woff'), url('../fonts/NeoSansArabic-Light.ttf') format('truetype'), url('../fonts/NeoSansArabic-Light.svg#NeoSansArabic-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neo Sans Arabic Ultra';
+    src: url('../fonts/NeoSansArabic-Ultra.eot');
+    src: url('../fonts/NeoSansArabic-Ultra.eot?#iefix') format('embedded-opentype'), url('../fonts/NeoSansArabic-Ultra.woff') format('woff'), url('../fonts/NeoSansArabic-Ultra.ttf') format('truetype'), url('../fonts/NeoSansArabic-Ultra.svg#NeoSansArabic-Ultra') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neo Sans Arabic';
+    src: url('../fonts/NeoSansArabic-Medium.eot');
+    src: url('../fonts/NeoSansArabic-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/NeoSansArabic-Medium.woff') format('woff'), url('../fonts/NeoSansArabic-Medium.ttf') format('truetype'), url('../fonts/NeoSansArabic-Medium.svg#NeoSansArabic-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: 'Neo Sans Arabic' !important;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fa,
+.far,
+.fas {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands" !important;
+}
+
+
+/* end fonts */
+
+.container {
+    padding: 0 36px !important;
+}
+
+
+/* Colors */
+
+.c-1 {
+    color: #0088CC !important;
+}
+
+.c-2 {
+    color: #7D44D2 !important;
+}
+
+.c-3 {
+    color: #D244C4 !important;
+}
+
+.c-4 {
+    color: #44D2B5 !important;
+}
+
+.c-5 {
+    color: #FF8800 !important;
+}
+
+.c-6 {
+    color: #D1D1D1 !important;
+}
+
+
+/* Backgrounds */
+
+.b-1 {
+    background: #0088CC !important;
+}
+
+.b-2 {
+    background: #7D44D2 !important;
+}
+
+.b-3 {
+    background: #D244C4 !important;
+}
+
+.b-4 {
+    background: #44D2B5 !important;
+}
+
+.b-5 {
+    background: #FF8800 !important;
+}
+
+.b-6 {
+    background: #D1D1D1 !important;
+}
+
+
+/* body */
+
+body {
+    background-color: #FFF;
+}
+
+
+/* NAVIGATION */
+
+.navbar {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.navbar img {
+    width: 51px;
+    height: 49px;
+    margin-right: 20px;
+}
+
+.navbar .login {
+    padding-left: 70px;
+}
+
+.navbar .login a:first-child {
+    margin-left: 15px;
+}
+
+
+/* SHOWCASE */
+
+#showcase {
+    padding: 0 2rem;
+}
+
+.carousel-inner {
+    height: 408px;
+    border-radius: 20px;
+}
+
+.carousel-inner img {
+    height: 408px;
+    /* border-radius: 20px; */
+}
+
+.carousel-caption h1 {
+    font-size: 38px;
+    font-weight: 400;
+    color: #FF8800;
+    margin-bottom: 25px;
+}
+
+.carousel-caption p {
+    margin-bottom: 20px !important;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.carousel-indicators {}
+
+
+/* Timer Section */
+
+#timer-section {
+    margin-top: 53px;
+}
+
+#timer-section .hero-text h2 {
+    font-size: 28px;
+    color: #707070;
+    font-weight: 400;
+}
+
+#timer-section .hero-text p {
+    font-size: 16px;
+    color: #707070;
+}
+
+#timer-section .timer {
+    margin-top: 48px;
+}
+
+#timer-section .timer .col-3 {
+    width: 0px;
+    height: 69.35px;
+    background: transparent;
+    border-left: 1px solid #cecece;
+    ‏
+}
+
+#timer-section .timer .col-3:last-child {
+    border: none;
+}
+
+#timer-section .timer p {
+    color: #C2C2C2;
+    font-size: 16px;
+}
+
+#timer-section .timer span {
+    font-size: 22px;
+}
+
+#social-media {
+    margin-bottom: 48px;
+}
+
+#social-media p {
+    color: #707070;
+    font-size: 16px;
+    margin-top: 48px;
+    margin-bottom: 20px !important
+}
+
+#social-media .social>a {
+    height: 52px;
+    width: 52px;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 5px;
+    filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.16));
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+#social-media .social a:hover {
+    color: #FFF;
+    background: #F18C2B;
+}
+
+.modal {
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-bottom: -100px !important;
+}
+
+.modal-dialog {
+    margin-top: 153px !important;
+}
+
+.modal-content {
+    border-radius: 20px;
+}
